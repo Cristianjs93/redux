@@ -1,1 +1,1 @@
-export const inputs = ['name', 'age', 'email', 'password'];
+export const inputs = ['email', 'password'];
