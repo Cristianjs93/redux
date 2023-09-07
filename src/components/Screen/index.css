@@ -1,0 +1,13 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  border: 2px solid rgb(192, 199, 205);
+  border-radius: 5px;
+  background-color: rgb(224, 232, 239);
+}
+
+.screen-key {
+  text-transform: capitalize;
+}

@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 5px 10px;
+  border: 2px solid rgb(192, 199, 205);
+  border-radius: 5px;
+}
+
+.form-label,
+.form-input::placeholder,
+.form-input-name::placeholder {
+  color: #8a8989;
+  text-transform: capitalize;
+}
+
+.form-input:focus,
+.form-input-name:focus {
+  outline: none;
+  border: 2px solid rgb(124, 129, 133);
+}
+
+.form-input-name {
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border: 2px solid rgb(192, 199, 205);
+  border-radius: 5px;
+}
